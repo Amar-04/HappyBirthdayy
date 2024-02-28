@@ -1,0 +1,27 @@
+body {
+    background: #121213cf;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: 85vh;
+    width: 85vw;
+    text-align: center;
+    overflow-y: auto;
+}
+
+img.birthday_img {
+    max-height: 45vh;
+}
+
+.poem-container {
+    border: 2px solid #ffd700; /* Set border color */
+    border-radius: 10px; /* Set border radius for rounded corners */
+    padding: 20px; /* Add padding for content */
+    margin: 20px; /* Add margin to separate from other elements */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
